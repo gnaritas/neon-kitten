@@ -1,0 +1,8 @@
+{
+  "name": "neon-kitten",
+  "version": "1.0.0",
+  "description": "Neon Kitten — Vancouver WA punk cat shop site (static + node form relay)",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
