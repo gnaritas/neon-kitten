@@ -11,7 +11,9 @@
 }
 html{background:var(--coal)}
 body{background:var(--coal);color:var(--paper);font-family:var(--f-mono);font-size:16px;line-height:1.65}
-.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.wrap{max-width:1080px;margin:0 auto;padding-left:22px;padding-right:22px}
+main > section{padding-top:60px}
+main > div.strip + section{padding-top:28px}
 a{color:var(--paper)}
 img,svg{max-width:100%}
 
@@ -46,7 +48,7 @@ main p + p{margin-top:14px}
 .strip{height:24px;margin:44px 0 0;background-image:radial-gradient(var(--pink) 1.4px,transparent 1.5px);background-size:14px 14px;opacity:.5}
 .strip.alt{background-image:radial-gradient(var(--acid) 1.4px,transparent 1.5px)}
 
-section + section{margin-top:64px}
+section + section{margin-top:0}
 .crumbs{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--smoke);margin:26px 0 4px}
 .crumbs a{color:var(--cyan);text-decoration:underline;text-underline-offset:3px}
 
@@ -76,7 +78,7 @@ section + section{margin-top:64px}
 blockquote{font-family:var(--f-serif);font-style:italic;font-size:clamp(20px,3vw,28px);line-height:1.4;border-left:4px solid var(--pink);padding-left:18px;color:var(--paper);margin:20px 0}
 blockquote cite{display:block;font-family:var(--f-mono);font-style:normal;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--smoke);margin-top:10px}
 
-.band{border:2px solid var(--pink);background-image:radial-gradient(rgba(255,47,142,.22) 1.6px,transparent 1.7px);background-size:16px 16px;padding:40px 26px;text-align:center;margin-top:72px}
+.band{border:2px solid var(--pink);background-image:radial-gradient(rgba(255,47,142,.22) 1.6px,transparent 1.7px);background-size:16px 16px;padding:40px 26px;text-align:center;margin-top:8px}
 .band p{margin:0 auto 20px;max-width:52ch;color:var(--paper)}
 .band .btn{margin:4px 6px}
 
