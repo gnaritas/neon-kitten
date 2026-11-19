@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://neon-kitten-production.up.railway.app/sitemap.xml
+Sitemap: https://neon-kitten-demo.up.railway.app/sitemap.xml
